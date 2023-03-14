@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
+    a {
+        color: #333;
+        text-decoration: none;
+    }
+
+
+    header {
+        padding: 0px;
+        margin: 0px;
+        width: 160px;
+        height: 50px;
+        display: flex;
+    }
+
+    ul {
+        padding: 0px;
+        list-style: none;
+
+    }
+
+
+    .ban {
+        background-color: aquamarine;
+        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://live.staticflickr.com/414/31813073183_6094f97aa1_h.jpg');
+        background-position: center;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        font-size: 40px;
+        padding-top: 150px;
+        color: white;
+        
+
+    }
+
+    .ban > p {
+        margin-left: 30px;
+    }
+ .ban > h1 {
+    margin-left: 30px;
+ }
+    .intr{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .team{
+        margin-right: 100px;
+    }
+
+    button {
+        width: 300px;
+        height: 50px;
+        background-color: transparent;
+        color: black;
+        border: 1px solid rgb(96, 91, 91);
+        border-radius: 50px;
+        float: left;
+        font-size: large;
+    }
+
+    button:hover {
+        background-color: #ccc;
+        border: 2px solid rgb(96, 91, 91);
+    }
+
